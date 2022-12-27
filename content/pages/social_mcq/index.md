@@ -1,0 +1,534 @@
+---
+title: 'About'
+date: 2018-12-06T09:29:16+10:00
+layout: 'single'
+---
+
+{{<rawhtml>}}
+<br>
+<br>
+<br>
+<br>
+<center>
+<script>
+function check() {
+    var c = 0;
+    var q1 = document.quiz.question1.value;
+    if (q1 == "غالبا") { c = c + 3 }
+    if (q1 == "احيانا") { c = c + 2 }
+    if (q1 == "نادرا") { c = c + 1 }
+
+    var q2 = document.quiz.question2.value;
+    if (q2 == "غالبا") { c = c + 3 }
+    if (q2 == "احيانا") { c = c + 2 }
+    if (q2 == "نادرا") { c = c + 1 }
+
+    var q3 = document.quiz.question3.value;
+    if (q3 == "غالبا") { c = c + 3 }
+    if (q3 == "احيانا") { c = c + 2 }
+    if (q3 == "نادرا") { c = c + 1 }
+
+    var q4 = document.quiz.question4.value;
+    if (q4 == "غالبا") { c = c + 3 }
+    if (q4 == "احيانا") { c = c + 2 }
+    if (q4 == "نادرا") { c = c + 1 }
+
+    var q5 = document.quiz.question5.value;
+    if (q5 == "غالبا") { c = c + 3 }
+    if (q5 == "احيانا") { c = c + 2 }
+    if (q5 == "نادرا") { c = c + 1 }
+
+    var q6 = document.quiz.question6.value;
+    if (q6 == "غالبا") { c = c + 3 }
+    if (q6 == "احيانا") { c = c + 2 }
+    if (q6 == "نادرا") { c = c + 1 }
+
+    var q7 = document.quiz.question7.value;
+    if (q7 == "غالبا") { c = c + 3 }
+    if (q7 == "احيانا") { c = c + 2 }
+    if (q7 == "نادرا") { c = c + 1 }
+
+    var q8 = document.quiz.question8.value;
+    if (q8 == "غالبا") { c = c + 3 }
+    if (q8 == "احيانا") { c = c + 2 }
+    if (q8 == "نادرا") { c = c + 1 }
+
+    var q9 = document.quiz.question9.value;
+    if (q9 == "غالبا") { c = c + 3 }
+    if (q9 == "احيانا") { c = c + 2 }
+    if (q9 == "نادرا") { c = c + 1 }
+
+    var q10 = document.quiz.question10.value;
+    if (q10 == "غالبا") { c = c + 3 }
+    if (q10 == "احيانا") { c = c + 2 }
+    if (q10 == "نادرا") { c = c + 1 }
+
+    var q11 = document.quiz.question11.value;
+    if (q11 == "غالبا") { c = c + 3 }
+    if (q11 == "احيانا") { c = c + 2 }
+    if (q11 == "نادرا") { c = c + 1 }
+
+    var q12 = document.quiz.question12.value;
+    if (q12 == "غالبا") { c = c + 3 }
+    if (q12 == "احيانا") { c = c + 2 }
+    if (q12 == "نادرا") { c = c + 1 }
+
+    var q13 = document.quiz.question13.value;
+    if (q13 == "غالبا") { c = c + 3 }
+    if (q13 == "احيانا") { c = c + 2 }
+    if (q13 == "نادرا") { c = c + 1 }
+
+    var q14 = document.quiz.question14.value;
+    if (q14 == "غالبا") { c = c + 3 }
+    if (q14 == "احيانا") { c = c + 2 }
+    if (q14 == "نادرا") { c = c + 1 }
+
+    var q15 = document.quiz.question15.value;
+    if (q15 == "غالبا") { c = c + 3 }
+    if (q15 == "احيانا") { c = c + 2 }
+    if (q15 == "نادرا") { c = c + 1 }
+
+    var q16 = document.quiz.question16.value;
+    if (q16 == "غالبا") { c = c + 3 }
+    if (q16 == "احيانا") { c = c + 2 }
+    if (q16 == "نادرا") { c = c + 1 }
+
+    var q17 = document.quiz.question17.value;
+    if (q17 == "غالبا") { c = c + 3 }
+    if (q17 == "احيانا") { c = c + 2 }
+    if (q17 == "نادرا") { c = c + 1 }
+
+    var q18 = document.quiz.question18.value;
+    if (q18 == "غالبا") { c = c + 3 }
+    if (q18 == "احيانا") { c = c + 2 }
+    if (q18 == "نادرا") { c = c + 1 }
+
+    var q19 = document.quiz.question19.value;
+    if (q19 == "غالبا") { c = c + 3 }
+    if (q19 == "احيانا") { c = c + 2 }
+    if (q19 == "نادرا") { c = c + 1 }
+
+    var q20 = document.quiz.question20.value;
+    if (q20 == "غالبا") { c = c + 3 }
+    if (q20 == "احيانا") { c = c + 2 }
+    if (q20 == "نادرا") { c = c + 1 }
+
+    var q21 = document.quiz.question21.value;
+    if (q21 == "غالبا") { c = c + 3 }
+    if (q21 == "احيانا") { c = c + 2 }
+    if (q21 == "نادرا") { c = c + 1 }
+
+    var q22 = document.quiz.question22.value;
+    if (q22 == "غالبا") { c = c + 3 }
+    if (q22 == "احيانا") { c = c + 2 }
+    if (q22 == "نادرا") { c = c + 1 }
+
+    var q23 = document.quiz.question23.value;
+    if (q23 == "غالبا") { c = c + 3 }
+    if (q23 == "احيانا") { c = c + 2 }
+    if (q23 == "نادرا") { c = c + 1 }
+
+    var q24 = document.quiz.question24.value;
+    if (q24 == "غالبا") { c = c + 3 }
+    if (q24 == "احيانا") { c = c + 2 }
+    if (q24 == "نادرا") { c = c + 1 }
+
+    var q25 = document.quiz.question25.value;
+    if (q25 == "غالبا") { c = c + 3 }
+    if (q25 == "احيانا") { c = c + 2 }
+    if (q25 == "نادرا") { c = c + 1 }
+
+    var q26 = document.quiz.question26.value;
+    if (q26 == "غالبا") { c = c + 3 }
+    if (q26 == "احيانا") { c = c + 2 }
+    if (q26 == "نادرا") { c = c + 1 }
+
+    var q27 = document.quiz.question27.value;
+    if (q27 == "غالبا") { c = c + 3 }
+    if (q27 == "احيانا") { c = c + 2 }
+    if (q27 == "نادرا") { c = c + 1 }
+
+    var q28 = document.quiz.question28.value;
+    if (q28 == "غالبا") { c = c + 3 }
+    if (q28 == "احيانا") { c = c + 2 }
+    if (q28 == "نادرا") { c = c + 1 }
+
+    var q29 = document.quiz.question29.value;
+    if (q13 == "غالبا") { c = c + 3 }
+    if (q13 == "احيانا") { c = c + 2 }
+    if (q13 == "نادرا") { c = c + 1 }
+
+    var q30 = document.quiz.question30.value;
+    if (q14 == "غالبا") { c = c + 3 }
+    if (q14 == "احيانا") { c = c + 2 }
+    if (q14 == "نادرا") { c = c + 1 }
+
+    var q31 = document.quiz.question31.value;
+    if (q31 == "غالبا") { c = c + 3 }
+    if (q31 == "احيانا") { c = c + 2 }
+    if (q31 == "نادرا") { c = c + 1 }
+
+    var q32 = document.quiz.question32.value;
+    if (q32 == "غالبا") { c = c + 3 }
+    if (q32 == "احيانا") { c = c + 2 }
+    if (q32 == "نادرا") { c = c + 1 }
+
+    var q33 = document.quiz.question33.value;
+    if (q33 == "غالبا") { c = c + 3 }
+    if (q33 == "احيانا") { c = c + 2 }
+    if (q33 == "نادرا") { c = c + 1 }
+
+    var q34 = document.quiz.question34.value;
+    if (q34 == "غالبا") { c = c + 3 }
+    if (q34 == "احيانا") { c = c + 2 }
+    if (q34 == "نادرا") { c = c + 1 }
+
+    var q35 = document.quiz.question35.value;
+    if (q35 == "غالبا") { c = c + 3 }
+    if (q35 == "احيانا") { c = c + 2 }
+    if (q35 == "نادرا") { c = c + 1 }
+
+    var q36 = document.quiz.question36.value;
+    if (q36 == "غالبا") { c = c + 3 }
+    if (q36 == "احيانا") { c = c + 2 }
+    if (q36 == "نادرا") { c = c + 1 }
+
+
+    var q37 = document.quiz.question37.value;
+    if (q37 == "غالبا") { c = c + 3 }
+    if (q37 == "احيانا") { c = c + 2 }
+    if (q37 == "نادرا") { c = c + 1 }
+
+    var q38 = document.quiz.question38.value;
+    if (q38 == "غالبا") { c = c + 3 }
+    if (q38 == "احيانا") { c = c + 2 }
+    if (q38 == "نادرا") { c = c + 1 }
+
+    var q39 = document.quiz.question39.value;
+    if (q39 == "غالبا") { c = c + 3 }
+    if (q39 == "احيانا") { c = c + 2 }
+    if (q39 == "نادرا") { c = c + 1 }
+
+    var q40 = document.quiz.question40.value;
+    if (q40 == "غالبا") { c = c + 3 }
+    if (q40 == "احيانا") { c = c + 2 }
+    if (q40 == "نادرا") { c = c + 1 }
+
+    var q41 = document.quiz.question41.value;
+    if (q41 == "غالبا") { c = c + 3 }
+    if (q41 == "احيانا") { c = c + 2 }
+    if (q41 == "نادرا") { c = c + 1 }
+// write the c value to the document in h1 tag
+    document.getElementById("result").innerHTML = c;
+    document.getElementById("result").style.display = "block";
+    document.getElementById("result").style.color = "red";
+    document.getElementById("result").style.fontSize = "xx-large";
+    document.getElementById("result").style.fontWeight = "bold";
+    document.getElementById("result").style.textAlign = "center";
+
+}
+</script>
+<div style="width:800px; margin:0 auto;">
+    <form name='quiz' id="quiz">
+        <ol>
+            <div>
+                <li> يفضل الجلوس بمفرده</li>
+                <p><input class="form-check-input" type="radio" name="question1" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question1" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question1" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> يفضل اللعب بمفرده</li>
+                <p><input class="form-check-input" type="radio" name="question2" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question2" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question2" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> يظهر من سلوكه ارتباطه بوالديه</li>
+                <p><input class="form-check-input" type="radio" name="question3" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question3" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question3" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> يغضب لأتفه الاسباب</li>
+                <p><input class="form-check-input" type="radio" name="question4" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question4" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question4" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> لا يرغب في الذهاب الى المنزل</li>
+                <p><input class="form-check-input" type="radio" name="question5" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question5" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question5" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> يتجنب الاشترك في اي نشاط مع زملاؤه</li>
+                <p><input class="form-check-input" type="radio" name="question6" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question6" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question6" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> يهتم بشكله/ مظهره</li>
+                <p><input class="form-check-input" type="radio" name="question7" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question7" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question7" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> قليل الكلام مع زملائه</li>
+                <p><input class="form-check-input" type="radio" name="question8" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question8" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question8" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> يتعامل مع الاخرين بعنف</li>
+                <p><input class="form-check-input" type="radio" name="question9" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question9" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question9" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> يبكي كثير داخل المنزل</li>
+                <p><input class="form-check-input" type="radio" name="question10" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question10" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question10" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> يتوتر لأتفه الأسباب</li>
+                <p><input class="form-check-input" type="radio" name="question11" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question11" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question11" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> أناني متمركز حول ذاته</li>
+                <p><input class="form-check-input" type="radio" name="question12" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question12" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question12" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> يحاول الخروج باستمر من المنزل</li>
+                <p><input class="form-check-input" type="radio" name="question13" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question13" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question13" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> لا يتحدث مع أحدفي المنزل</li>
+                <p><input class="form-check-input" type="radio" name="question14" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question14" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question14" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> لديه صداقات متعددة</li>
+                <p><input class="form-check-input" type="radio" name="question15" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question15" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question15" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> يضحك بدون سبب</li>
+                <p><input class="form-check-input" type="radio" name="question16" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question16" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question16" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> تصرفاته عدوانيه تجاه الاخرين</li>
+                <p><input class="form-check-input" type="radio" name="question17" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question17" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question17" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> يعبر عن مشاعر بسهوله</li>
+                <p><input class="form-check-input" type="radio" name="question18" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question18" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question18" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> دائم الشجار مع اخواته</li>
+                <p><input class="form-check-input" type="radio" name="question19" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question19" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question19" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> خجول</li>
+                <p><input class="form-check-input" type="radio" name="question20" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question20" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question20" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> يخرب بعض ادوات أثاث المنزل</li>
+                <p><input class="form-check-input" type="radio" name="question21" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question21" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question21" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> يهتم بنظافته الشخصيه</li>
+                <p><input class="form-check-input" type="radio" name="question22" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question22" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question22" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> يخاف منالتعامل مع الاخرين</li>
+                <p><input class="form-check-input" type="radio" name="question23" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question23" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question23" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> يحب الخروج مع والديه أو أحدهما</li>
+                <p><input class="form-check-input" type="radio" name="question24" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question24" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question24" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> يخاف لأتفه الاسباب</li>
+                <p><input class="form-check-input" type="radio" name="question25" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question25" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question25" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> يشارك مع الأنشطة مع زملاؤه</li>
+                <p><input class="form-check-input" type="radio" name="question26" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question26" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question26" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> يلعب مع والديه أو أحدهما</li>
+                <p><input class="form-check-input" type="radio" name="question27" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question27" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question27" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> يسرح لدرجة عدم شعور بالأخرين</li>
+                <p><input class="form-check-input" type="radio" name="question28" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question28" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question28" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> متعاون مع الأخرين</li>
+                <p><input class="form-check-input" type="radio" name="question29" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question29" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question29" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> ينصت لوالديه (أو أحدهما) ويطيعهم</li>
+                <p><input class="form-check-input" type="radio" name="question30" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question30" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question30" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> يبتسم بشاشة الوجهة</li>
+                <p><input class="form-check-input" type="radio" name="question31" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question31" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question31" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> يطلب المساعدة حين يحتاج اليها</li>
+                <p><input class="form-check-input" type="radio" name="question32" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question32" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question32" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> يحب إخوته ويتفاعل معهم</li>
+                <p><input class="form-check-input" type="radio" name="question33" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question33" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question33" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> هادى الطباع</li>
+                <p><input class="form-check-input" type="radio" name="question34" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question34" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question34" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> ينظر إلى الأخرين حين يتحدث إليهم</li>
+                <p><input class="form-check-input" type="radio" name="question35" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question35" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question35" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> يفرح عند رؤية والديه</li>
+                <p><input class="form-check-input" type="radio" name="question36" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question36" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question36" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> يتحرك في مكانه باستمرار</li>
+                <p><input class="form-check-input" type="radio" name="question37" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question37" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question37" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> ينتبه إلى الأخرين حين يتحدث إليهم</li>
+                <p><input class="form-check-input" type="radio" name="question38" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question38" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question38" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> يجلس مع أسرته لتناول الطعام</li>
+                <p><input class="form-check-input" type="radio" name="question39" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question39" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question39" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> تظهر عليه علامات الحزن</li>
+                <p><input class="form-check-input" type="radio" name="question40" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question40" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question40" value="نادرا">نادرا</p>
+            </div>
+
+            <div>
+                <li> يميل إلى العزلة والانطواء</li>
+                <p><input class="form-check-input" type="radio" name="question41" value="غالبا">غالبا</p>
+                <p><input class="form-check-input" type="radio" name="question41" value="احيانا">احيانا</p>
+                <p><input class="form-check-input" type="radio" name="question41" value="نادرا">نادرا</p>
+            </div>
+        </ol>
+
+        <center>
+            <input class="btn btn-primary" type="button" name="" value="Submit" onclick="check()">
+            <br>
+            <div id="result">
+
+            </div>
+        </center>
+        <br>
+
+    </form>
+</div>
+<center>
+{{</rawhtml>}}

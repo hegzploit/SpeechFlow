@@ -1,0 +1,59 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Speechflow"
+themesDir = "themes"
+theme = "hugo-hero-theme"
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.92.0"
+    
+[params]
+  google_analytics_id=""
+
+  [params.logo]
+    mobile = "images/logo-mobile.png"
+    mobile_height = "36px"
+    mobile_width = "36px"
+    desktop = "images/logo.png"
+    desktop_height = "29px"
+    desktop_width = "217px"
+    alt = "Hugo Hero"
+
+  [params.homepage_meta_tags]
+    meta_description = ""
+    meta_og_title = "Speechflow"
+    meta_og_type = "website"
+    meta_og_url = "https://hugo-hero.netlify.app"
+    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-hero-theme/master/images/tn.png"
+    meta_og_description = "Our AI service uses image and audio classification techniques to identify language impairments in children between the ages of 3 and 7. It also includes a multiple choice question assessment to determine if the impairment is psychological or social, and provides a detailed report to parents, caregivers, and healthcare professionals."
+
+[[menu.main]]
+  name = "Words"
+  url = "/slides/"
+    weight = 3
+
+[[menu.main]]
+  name = "Psychological Assesment"
+  url = "/psycho_mcq/"
+    weight = 1
+
+[[menu.main]]
+  name = "Social Assesment"
+  url = "/social_mcq/"
+    weight = 2
+
+[[menu.main]]
+	name = "Services"
+	url = "/services/"
+    weight = 4
+
+[[menu.main]]
+	name = "Contact"
+	url = "/contact/"
+    weight = 5
+
+[permalinks]
+  post = "/:year/:month/:day/:slug/"
+  pages = "/:filename/"

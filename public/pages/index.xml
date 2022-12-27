@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Speechflow</title>
+    <link>localhost/pages/</link>
+    <description>Recent content in Pages on Speechflow</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Dec 2018 09:29:16 +1000</lastBuildDate><atom:link href="localhost/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>localhost/about/</link>
+      <pubDate>Thu, 06 Dec 2018 09:29:16 +1000</pubDate>
+      
+      <guid>localhost/about/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>localhost/social_mcq/</link>
+      <pubDate>Thu, 06 Dec 2018 09:29:16 +1000</pubDate>
+      
+      <guid>localhost/social_mcq/</guid>
+      <description>يفضل الجلوس بمفرده غالبا
+احيانا
+نادرا
+يفضل اللعب بمفرده غالبا
+احيانا
+نادرا
+يظهر من سلوكه ارتباطه بوالديه غالبا
+احيانا
+نادرا
+يغضب لأتفه الاسباب غالبا
+احيانا
+نادرا
+لا يرغب في الذهاب الى المنزل غالبا
+احيانا
+نادرا
+يتجنب الاشترك في اي نشاط مع زملاؤه غالبا
+احيانا
+نادرا
+يهتم بشكله/ مظهره غالبا
+احيانا
+نادرا
+قليل الكلام مع زملائه غالبا
+احيانا
+نادرا
+يتعامل مع الاخرين بعنف غالبا
+احيانا
+نادرا
+يبكي كثير داخل المنزل غالبا</description>
+    </item>
+    
+    <item>
+      <title>History</title>
+      <link>localhost/history/</link>
+      <pubDate>Thu, 06 Dec 2018 09:29:16 +1000</pubDate>
+      
+      <guid>localhost/history/</guid>
+      <description>About Heading Theres no limits, Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. Numquam dolores mel eu, mea docendi omittantur et, mea ea duis erat. Elit melius cu ius. Per ex novum tantas putant, ei his nullam aliquam apeirian. Aeterno quaestio constituto sea an, no eum intellegat assueverit.
+Theres no limits, Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei.</description>
+    </item>
+    
+    <item>
+      <title>Psychological Assesment</title>
+      <link>localhost/psycho_mcq/</link>
+      <pubDate>Thu, 06 Dec 2018 09:29:16 +1000</pubDate>
+      
+      <guid>localhost/psycho_mcq/</guid>
+      <description>يبذل اقصي جهد عندما يقوم بعمل ما غالبا
+احيانا
+نادرا
+يختار ما يناسبه من الاعمال للقيام به غالبا
+احيانا
+نادرا
+يحب الذهاب الي الحضانه غالبا
+احيانا
+نادرا
+لا يخشي القيام باي عمل بمفرده غالبا
+احيانا
+نادرا
+لا يفضل مشاركه اصدقائه في الانشطه المختلفه غالبا
+احيانا
+نادرا
+يقضي الفسحه مع زملاؤه غالبا
+احيانا
+نادرا
+يحرص علي انهاء العمل الذي يقوم به غالبا
+احيانا
+نادرا
+يذهب عند الجيران بمفرده غالبا
+احيانا</description>
+    </item>
+    
+    <item>
+      <title>revealjs</title>
+      <link>localhost/slides/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/slides/</guid>
+      <description>Demo ![](/slides/slide-01.jpg) --- ![](/slides/slide-02.jpg) --- ![](/slides/slide-03.jpg) --- ![](/slides/slide-04.jpg) --- ![](/slides/slide-05.jpg) --- ![](/slides/slide-06.jpg) --- ![](/slides/slide-07.jpg) --- ![](/slides/slide-08.jpg) --- ![](/slides/slide-09.jpg) --- ![](/slides/slide-10.jpg) --- ![](/slides/slide-11.jpg) --- ![](/slides/slide-12.jpg) --- ![](/slides/slide-13.jpg) --- ![](/slides/slide-14.jpg) --- ![](/slides/slide-15.jpg) --- ![](/slides/slide-16.jpg) --- ![](/slides/slide-17.jpg) --- ![](/slides/slide-18.jpg) --- ![](/slides/slide-19.jpg) --- ![](/slides/slide-20.jpg) --- ![](/slides/slide-21.jpg) --- ![](/slides/slide-22.jpg) --- ![](/slides/slide-23.jpg) --- ![](/slides/slide-24.jpg) --- ![](/slides/slide-25.jpg) --- ![](/slides/slide-26.jpg) --- ![](/slides/slide-27.jpg) --- ![](/slides/slide-28.jpg) --- ![](/slides/slide-29.jpg) --- ![](/slides/slide-30.jpg) --- ![](/slides/slide-31.jpg) --- ![](/slides/slide-32.jpg) --- ![](/slides/slide-33.jpg) --- ![](/slides/slide-34.jpg) --- ![](/slides/slide-35.jpg) --- !</description>
+    </item>
+    
+  </channel>
+</rss>

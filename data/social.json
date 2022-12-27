@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Github",
+        "link": "https://github.com/hegzploit",
+        "image": "social/github.svg"
+    },
+    {
+        "name": "Twitter",
+        "link": "https://twitter.com/hegzploit",
+        "image": "social/twitter.svg"
+    }
+]
